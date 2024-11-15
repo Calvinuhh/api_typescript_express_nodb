@@ -6,7 +6,7 @@
 
 La version de **Node** implementada es la `22.11.0` se debe correr el proyecto localmente con dicha version o con una version superior ya que en **Node** ahora se pueden leer variables de entorno de manera nativa con el siguiente metodo:
 
-```javascript
+```typescript
 process.loadEnvFile();
 ```
 
@@ -29,7 +29,7 @@ Ahora se creara una nueva carpeta en cualquier lugar en donde se pueda guardar e
 
 Una vez creada la carpeta nueva se abrira la terminal en la ubicacion de dicha carpeta creada, bien puede ser de **PowerShell, Bash o Cmd**.
 
-Se clonara el repositorio con el comando:
+Se escribira el comando `git clone` y seguido se pegara la url del repositorio de git de esta manera:
 
 ```
 git clone https://github.com/Calvinuhh/api_typescript_express_nodb.git
@@ -47,7 +47,7 @@ Este aspecto es super importante porque el metodo `process.loadEnvFile()` lee po
 
 Si se quiere arrancar el proyecto hay dos opciones, la primera opcion sera indicar en el archivo **index.ts** de la carpeta `src` en el metodo `process.loadEnvFile()` el arhivo que debe leer.
 
-Aqui esta el bloque de codigo resultante para la lectura de las variables de entorno para el archivo `.env.demo`:
+Aqui esta el bloque de codigo resultante para el archivo `index.ts` en `src` para la lectura de las variables de entorno para el archivo `.env.demo`:
 
 ```typescript
 import server from "./server";
@@ -77,7 +77,7 @@ Ahora procederemos con la instalacion de las dependencias, con el comando:
 npm install
 ```
 
-Se creara la carpeta node_modules en donde alli estaran las dependencias que necesitaremos para el proyecto.
+Se creara la carpeta ***node_modules*** en donde alli estaran las dependencias que necesitaremos para el proyecto.
 
 Ya con estos pasos ya podremos correr el proyecto de manera local, si se quiere usar el codigo compilado de **_Typescript_** a **_JavaScript_** primeramente se utilizara el comando `npm run tsc`, esto creara una carpeta llamada **dist** en donde estara el codigo compilado en **_JavaScript_**, para arrancar el servidor se utilizara el comando `npm start`.
 
@@ -106,7 +106,7 @@ Si todo salio bien el servidor estara escuchando correctamente.
 
 ## Endpoints
 
-Se pueden hacer las tipicas peticiones de un **_CRUD_**, tales como obtener todos los datos, obtener un dato por _ID_, hacer un **POST** para subir un recurso al servidor, actualizar un dato o eliminar un dato.
+Se pueden hacer las tipicas peticiones de un **_CRUD_**, tales como obtener todos los datos, obtener un dato por _ID_, hacer un **POST** para subir un recurso al servidor, *actualizar* un dato o *eliminar* un dato.
 
 Para probar los endpoints se recomienda utilizar un rest client como **_Postman_** o **_Insomnia_**
 
