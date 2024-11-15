@@ -20,8 +20,8 @@ Primeramente se clonara el repositorio del GitHub del siguiente enlace:
 
 Se dara click en el cuadro azul que dice **"Code"** para luego darle click a **"Copy url to clipboard"**
 
-<img src="./images/Screenshot 2024-11-15 075654.png" width=400px>
-<img src="./images/Screenshot 2024-11-15 080756.png" width=400px>
+<img src="./images/Screenshot 2024-11-15 075654.png" alt="screenshot_01" width=400px>
+<img src="./images/Screenshot 2024-11-15 080756.png" alt="screenshot_02" width=400px>
 
 Esto hara que el link del repositorio de GitHub sea copiado al portapapeles y se pueda pegar.
 
@@ -77,7 +77,7 @@ Ahora procederemos con la instalacion de las dependencias, con el comando:
 npm install
 ```
 
-Se creara la carpeta ***node_modules*** en donde alli estaran las dependencias que necesitaremos para el proyecto.
+Se creara la carpeta **_node_modules_** en donde alli estaran las dependencias que necesitaremos para el proyecto.
 
 Ya con estos pasos ya podremos correr el proyecto de manera local, si se quiere usar el codigo compilado de **_Typescript_** a **_JavaScript_** primeramente se utilizara el comando `npm run tsc`, esto creara una carpeta llamada **dist** en donde estara el codigo compilado en **_JavaScript_**, para arrancar el servidor se utilizara el comando `npm start`.
 
@@ -106,7 +106,7 @@ Si todo salio bien el servidor estara escuchando correctamente.
 
 ## Endpoints
 
-Se pueden hacer las tipicas peticiones de un **_CRUD_**, tales como obtener todos los datos, obtener un dato por _ID_, hacer un **POST** para subir un recurso al servidor, *actualizar* un dato o *eliminar* un dato.
+Se pueden hacer las tipicas peticiones de un **_CRUD_**, tales como obtener todos los datos, obtener un dato por _ID_, hacer un **POST** para subir un recurso al servidor, _actualizar_ un dato o _eliminar_ un dato.
 
 Para probar los endpoints se recomienda utilizar un rest client como **_Postman_** o **_Insomnia_**
 
@@ -114,7 +114,7 @@ El principal endpoint es el siguiente (poniendo como ejemplo el puerto **4000**)
 
 Aqui se dejara un ejemplo grafico de las peticiones que se pueden realizar:
 
-![alt text](<images/Screenshot 2024-11-15 092659.png>)
+![screenshot_03](<images/Screenshot 2024-11-15 092659.png>)
 
 Si se hace una peticion **GET** a http://localhost:4000/data devolvera la respuesta `Data not found`, esto es porque el Array que esta almacenando los datos esta **vacio**.
 
