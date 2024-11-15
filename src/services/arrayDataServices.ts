@@ -4,8 +4,8 @@ import { v4 } from "uuid";
 
 let data: Array<PersonData> = [];
 
-data.push({ id: v4(), name: "Jhon", lastName: "Doe", age: 30 });
-data.push({ id: v4(), name: "Jane", lastName: "Doe", age: 25 });
+// data.push({ id: v4(), name: "Jhon", lastName: "Doe", age: 30 });
+// data.push({ id: v4(), name: "Jane", lastName: "Doe", age: 25 });
 
 export const createDataService = ({ name, age, lastName }: PersonDTO): void => {
   data.push({ id: v4(), name, lastName, age });
