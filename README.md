@@ -20,8 +20,8 @@ Primeramente se clonara el repositorio del GitHub del siguiente enlace:
 
 Se dara click en el cuadro azul que dice **"Code"** para luego darle click a **"Copy url to clipboard"**
 
-<img src="./images/Screenshot 2024-11-15 075654.png" width=350px>
-<img src="./images/Screenshot 2024-11-15 080756.png" width=300px>
+<img src="./images/Screenshot 2024-11-15 075654.png" width=400px>
+<img src="./images/Screenshot 2024-11-15 080756.png" width=400px>
 
 Esto hara que el link del repositorio de GitHub sea copiado al portapapeles y se pueda pegar.
 
